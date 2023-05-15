@@ -1,0 +1,7 @@
+prix = float(input("Donne-moi le prix : "))
+quantité = int(input("Donne-moi la quantité : "))
+total = prix * quantité
+if total < 50 :
+    print("Le prix est inférieur à 50 euros")
+else :
+    print("Le prix est superieur ou egal à 50 euros")
